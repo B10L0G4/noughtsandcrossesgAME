@@ -1,6 +1,6 @@
 Abaixo readme padrão para os projetos :
 
-## Nome do Projeto: [Insira o nome do seu projeto]
+## Nome do Projeto: Jogo Da Velha
 
 #### Status: Planejamento
 
