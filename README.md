@@ -22,7 +22,9 @@ Abaixo readme padrão para os projetos :
 
 **Passos de Instalação:**
 
-- Não há para este projeto
+- pip install -r requirements.txt
+- python source venv/bin/activate (WIN)
+- source venv/bin/activate (mac/linux)
 
 **Contribuição**
 
