@@ -15,7 +15,7 @@ velha = [
 def tela(): # para contruir e limpar a tela  
     global velha 
     global jogadas 
-    os.system ("cls")
+    os.system("cls")
     print("    0   1   2")
     print("")
     print("0:  "+ velha [0][0] + " | " + velha [0][1] + " | " + velha [0][2])
@@ -23,7 +23,7 @@ def tela(): # para contruir e limpar a tela
     print("1:  "+ velha [1][0] + " | " + velha [1][1] + " | " + velha [1][2])
     print("    -----------")
     print("2:  "+ velha [2][0] + " | " + velha [2][1] + " | " + velha [2][2])
-    print("Jogadas: " + Fore.GREEN + str(jogadas) + Fore.RESET) #antes estava jogadas // quemJoga = não funcionou quemjoga, mas diminuiu o numero de jogadas para  2
+    print("Jogadas: " + Fore.GREEN + str(jogadas) + Fore.RESET) #antes estava 
 
 def JogadorJoga():
     global jogadas
@@ -145,8 +145,8 @@ while(JogarNovamente=="s"):
         tela()
         vit=verificarVitoria()
         if(vit!="n")or(jogadas>=maxJogadas):
+            print(Fore.RED + "Fim de Jogo" + Fore.YELLOW)
             break
-    print(Fore.RED + "Fim de Jogo" + Fore.YELLOW)
     if (vit=="X" or vit=="O"):
         print("Resultado: Jogador " + vit + " venceu!")
     else:
